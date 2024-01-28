@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/athena">
+	<id>com.coursevector.Bespin</id>
+	<version>1.0.0</version>
+	<filename>Bespin</filename>
+	<name>Mozilla Bespin</name>
+	
+	<description>Mozilla Bespin in AIR</description>
+
+	<copyright>Copyright (c) 2009 Course Vector</copyright>
+
+	<initialWindow>
+		  <content>Bespin.swf</content>
+		  <systemChrome>standard</systemChrome>
+		  <transparent>false</transparent>
+		  <visible>true</visible>
+		  <maximizable>true</maximizable>
+		  <minimizable>true</minimizable>
+		  <resizable>true</resizable>
+	  <width>900</width>
+    <height>900</height>
+    <x>50</x>
+    <y>50</y>
+  </initialWindow>
+
+	<icon>
+		  <image128x128>icons/AIRadio_128.png</image128x128>
+		  <image48x48>icons/AIRadio_48.png</image48x48>
+		  <image32x32>icons/AIRadio_32.png</image32x32>
+		  <image16x16>icons/AIRadio_16.png</image16x16>
+	</icon>
+
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<installFolder>Course Vector</installFolder>
+	<programMenuFolder>Course Vector</programMenuFolder>
+
+
+</application>
